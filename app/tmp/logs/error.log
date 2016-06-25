@@ -1,0 +1,159 @@
+2016-06-24 17:12:40 Error: [MissingControllerException] Controller class ShowfirstwebController could not be found.
+Exception Attributes: array (
+  'class' => 'ShowfirstwebController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_8_4/showfirstweb
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-24 17:13:53 Error: [MissingControllerException] Controller class ShowfirstwebController could not be found.
+Exception Attributes: array (
+  'class' => 'ShowfirstwebController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_8_4/showfirstweb
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-24 17:35:28 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_8_4/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-24 17:36:25 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_8_4/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-24 17:37:08 Error: [MissingViewException] View file "Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/index.ctp',
+)
+Request URL: /cakephp_2_8_4/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/index')
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-24 17:40:22 Error: [MissingControllerException] Controller class FoobarController could not be found.
+Exception Attributes: array (
+  'class' => 'FoobarController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_2_8_4/foobar
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-24 17:40:32 Error: [MissingViewException] View file "Posts/foobar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/foobar.ctp',
+)
+Request URL: /cakephp_2_8_4/posts/foobar
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/foobar')
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-24 17:47:52 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 17:48:14 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 17:54:38 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /cakephp_2_8_4/posts/view/1
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-24 18:29:22 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/view/1
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(266): class_exists('PostsController')
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 18:29:53 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/view/1
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(266): class_exists('PostsController')
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 18:30:17 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/view/1
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(266): class_exists('PostsController')
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 18:30:25 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/view/1
+Stack Trace:
+#0 [internal function]: App::load('PostsController')
+#1 [internal function]: spl_autoload_call('PostsController')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(266): class_exists('PostsController')
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 18:41:28 Error: [ParseError] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /cakephp_2_8_4/posts/edit/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(933): View->_evaluate('/Applications/M...', Array)
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/View/View.php(473): View->_render('/Applications/M...')
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#5 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-06-24 19:01:53 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakephp_2_8_4/posts/delete/5
+Stack Trace:
+#0 [internal function]: PostsController->delete('5')
+#1 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp_2_8_4/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp_2_8_4/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
